@@ -15,11 +15,11 @@ public class MainClass03 {
 		System.out.println("char 형 변수에 저장된 문자 : " + ch1);
 		char ch2 = '金';
 		char ch3 = '쀍';
-		int num = ch1; // char 형을 int형으로 형변환
+		int num = ch1; // char 형을 int 형으로 형변환
 		System.out.println("대문자 A에 해당하는 숫자 코드 : " + num);		
 
 		int num2 = 110;
 		char ch4 = (char)num2; // int 형을 char형으로 강제 형변환
-		System.out.println(ch4);
+		System.out.println(ch4); 
 	}
 }
